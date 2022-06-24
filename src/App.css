@@ -6,7 +6,7 @@ body {
 }
 
 .search-box {
-  width: 500px;
+  width: 550px;
   margin: 0 auto;
   margin-top: 30px;
   text-align: center;
@@ -20,11 +20,20 @@ body {
   outline: none !important;
 }
 
+.search-btn {
+  background-color: aqua;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
 .row {
   display: grid;
   grid-template-columns: repeat(3, 4fr);
 }
 
+.card img {
+  margin: 0 auto;
+}
 .item-section {
   width: 80%;
   margin: 0 auto;
