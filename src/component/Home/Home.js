@@ -28,7 +28,8 @@ const Home = () => {
     event.preventDefault();
 
     const eventValue = event.target.search.value;
-    setSearchItem(eventValue);
+
+    setSearchItem(eventValue.toLowerCase());
   };
 
   let contain;
